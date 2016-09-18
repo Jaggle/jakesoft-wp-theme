@@ -1,0 +1,143 @@
+/*
+Theme Name: Jakesoft
+Theme URI: http://www.yeskn.com
+Author: Jakesoft
+Author URI: http://www.yeskn.com
+Description: I just want to design a wordpress by myself.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags:simple,black,jake
+Text Domain:Jakesoft
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+
+/*全局-头部-global-header*/
+a{
+	color:white;
+	text-decoration:none;
+ }
+a:hover{
+	text-decoration:underline;
+	color:#989590;
+}
+h1,h1 a, h1 a:hover{
+	text-decoration:none;
+	color:#989590;
+ }
+.post p{
+	text-indent:25px;
+	line-height:25px;
+}
+h2, h2 a{
+	text-decoration:none;
+	font-weight:normal;
+	font-size:20px;
+	color:#989590;
+ }
+ h2 a:hover{
+	text-decoration:none;
+	color:white;
+ }
+ li{
+	 margin:5px 0;
+ }
+
+body{
+	background:black;
+	font-size:12px;
+	color:#989590;
+	
+}
+table{
+	width:100%;
+}
+pre{
+	border:1px solid #ddd;
+	background:#eee;
+	padding:10px;
+	border-radius:4px;
+	color:#000;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+#header{
+	width:100%;
+	height:150px;
+	margin-bottom:10px;
+}
+#site-description{
+	text-align:center;
+}
+.jmail a{
+	color:#989590;
+	text-decoration:none;
+}
+.site-title{
+	margin-top:50px;
+	height:50px;
+	line-height:50px;
+	text-align:center;
+}
+
+/*边栏-Sidebar*/
+
+#sidebar{
+	width:20%;
+	float:left;
+	padding:10px;
+	background:#0D0D0D;
+}
+.widget li{
+	height:20px;
+	line-height:25px;
+}
+.widget #today{
+	border:1px solid #ddd;
+	border-radius: 5px;
+	box-shadow: 0 0 6px #fff;
+}
+/*主区域-main*/
+#main{
+	margin-left:30px;
+	width:50%;
+	float:left;
+}
+.pagenav{
+	margin:10px 0;
+}
+.pagenav .page, .pagenav .current, .pagenav .previouspostslink, .pagenav .nextpostslink{
+	padding:5px;
+}
+.post{
+	margin:10px;
+	line-height:20px;
+}
+.post img{
+	max-width:100%;
+	height:auto;
+}
+.post-meta{
+	width:100%;
+	margin-top:5px;
+	padding-bottom:5px;
+	border-bottom:1px dotted #ddd;
+}
+/*文章页面-single*/
+.comment{
+	margin-top:10px;
+}
+/*底部-footer*/
+#footer{
+	clear:both;
+	width:100%;
+	height:100px;
+	border-top:1px solid #ddd;
+}
+.wp_syntax{
+	background:white;
+}
