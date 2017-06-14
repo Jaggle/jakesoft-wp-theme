@@ -48,7 +48,19 @@ else {
 
 <h1 class="site-title"><a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 
-<div id="site-description"><?php bloginfo( 'description' ); ?></div>
+
+<?php
+
+    $subTitle = array(
+        '如果你也能看得到的话...',
+        '也许我的博客丑出了新高度?',
+        '我只想做一个安静的美男子...'
+    );
+
+?>
+
+
+<div id="site-description"><?php echo $subTitle[rand(0,2)];  ?></div>
 
 </div><!--Blog name-->
 </div><!--header-->
