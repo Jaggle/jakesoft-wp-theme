@@ -27,9 +27,9 @@
 
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url'); ?>"/>
+    <link rel="stylesheet" type="text/css" media="all" href="/static/themes/jakesoft/style.css" />
 
-    <link rel="shortcut icon" href="<?php bloginfo('template_directory'); echo '/images/favicon.ico' ?> />
+    <link rel="shortcut icon" href="/static/themes/jakesoft/images/favicon.ico" />
 
 	<?php if(is_home()) {
 		$keywords    = "夜色空凝,Jake's Blog,yeskn.com";
